@@ -1,0 +1,302 @@
+html,
+body {
+  font-family: "Microsoft YaHei";
+  font-size: 12px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  background-color: #e8f3fa;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.top-head {
+  width: 100%;
+  height: 160px;
+}
+.top-head img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #2da2ff;
+}
+.nav-bar ul {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.nav-bar ul li {
+  width: 20%;
+  float: left;
+}
+.nav-bar ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.nav-bar ul li a:hover {
+  text-decoration: underline;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+.container-wrapper {
+  margin: 30px 0;
+}
+.fz-desc {
+  padding: 30px 30px 0;
+  overflow: hidden;
+}
+.fz-desc > img {
+  width: 585px;
+  height: 362px;
+  object-fit: cover;
+  vertical-align: middle;
+  float: left;
+}
+.fz-desc-info {
+  width: 500px;
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  line-height: 50px;
+  margin-left: 30px;
+}
+.fz-sec {
+  padding: 30px 30px 0;
+}
+.fz-desc-info > p {
+  text-indent: 2em;
+}
+.fz-sec-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin: 0 0 15px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #8cccff;
+}
+.pics ul {
+  overflow: hidden;
+}
+.pics li {
+  width: 22%;
+  text-align: center;
+  float: left;
+}
+.pics li.odd {
+  padding-right: 42px;
+}
+.pics li img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+.pics .name {
+  font-size: 13px;
+  color: #000;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.map > img {
+  width: 400px;
+  object-fit: cover;
+  float: left;
+}
+.hot-road .item {
+  margin-bottom: 45px;
+  font-size: 14px;
+}
+.hot-road .item h3 {
+  font-size: 18px;
+}
+.travel-list {
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 30px;
+  line-height: 32px;
+}
+.travel-list h4 {
+  font-size: 18px;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #2da2ff;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+.rmjd-1 {
+  padding: 30px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.rmjd-2 ul {
+  padding: 30px;
+}
+.rmjd-2 ul li {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #dadada;
+  overflow: hidden;
+}
+.rmjd-2 ul li img {
+  width: 236px;
+  height: 170px;
+  object-fit: cover;
+  float: left;
+  border-radius: 6px;
+}
+.rmjd-2 .info {
+  margin-left: 256px;
+  padding-right: 30px;
+  line-height: 32px;
+}
+.rmjd-2 .p1 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 3px 10px;
+  margin: 5px 0 0;
+}
+.rmjd-2 .p2 {
+  font-size: 15px;
+  color: #666;
+  padding: 3px 10px;
+  margin: 0;
+}
+.rmjd-pics-list {
+  width: 1015px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 30px 30px;
+}
+.rmjd-pics-list .item {
+  width: 242px;
+  height: 320px;
+  position: relative;
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 14px;
+  overflow: hidden;
+  float: left;
+  margin: 0 15px 20px 0;
+}
+.rmjd-pics-list .item.item-2 {
+  width: 485px;
+}
+.rmjd-pics-list .item .card {
+  width: 100%;
+  height: 155px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.rmjd-pics-list .item.item-2 .card {
+  height: 320px;
+}
+.rmjd-pics-list .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rmjd-pics-list .card .mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+.card .mask {
+  font-size: 13px;
+  color: #fff;
+}
+.rmjd-pics {
+  padding: 30px;
+  font-size: 16px;
+}
+.news-title {
+  padding: 30px 30px 0;
+  font-size: 20px;
+}
+.news-ul {
+  padding: 30px;
+}
+.news-ul li {
+  overflow: hidden;
+  height: 68px;
+  line-height: 68px;
+  border-bottom: 1px dashed #ddd;
+}
+.news-ul li .date {
+  float: right;
+  font-size: 13px;
+  color: #999;
+}
+.news-ul li a {
+  font-size: 16px;
+  color: #000;
+  width: 80%;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-decoration: none;
+}
+.news-ul li a:hover {
+  color: #2da2ff;
+}
+h1 {
+  text-align: center;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.register {
+  width: 180px;
+  height: 460px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
